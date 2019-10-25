@@ -1,0 +1,9 @@
+#Project Description
+This is a project showcasing an imaginaty pizza store website named Abrars Pizza.
+This website user html css and javascript.
+
+#Feature list
+This website includes
+1. Simple Design
+2. Html tags including
+3. fetch data from javascript

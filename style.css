@@ -1,0 +1,257 @@
+body {
+	background-color: yellow;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+	font-weight: 600;
+	color: white;
+	font-size: 130%;
+}
+.main {
+	color: black;
+	font-weight: 900;
+}
+
+.boksho {
+	padding: 2px;				   
+	margin: 10px;
+	width: 50%;
+}
+/* border: 1px solid red; ADDS BORDER 
+padding: 2px;              /*ADDS SPACING ABOVE & BELOW */
+/* margin: 10px;               /*ADDS SPACING ALL AROUND*/
+/* width: 50%;                 DECREASED LENGTH TO HALF */ 
+.box {
+	padding: 2px;
+	margin: 10px;
+	width: 50%;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+}
+.main {
+	display: flex;			/* BRINGS ALL DIVS INTO ONE ROW! YOU 
+                            CAN ALSO PUT DIVS INSIDE OF OTHER DIVS
+                            LIKE WE DID WITH THE MAIN DIV--- LOOK */
+	text-align: center 		/* THIS CENTERS YOUR TEXT TO THE MIDDLE */
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.lead {
+	padding: 2px;
+	color: black;
+	display: flex;
+	text-align: center;
+}
+.round {
+	padding: 2px;
+	padding-top: 20px;
+	margin: 0px;
+	width: 100%;
+	border: 10px;
+	border-color:black;
+	border-style: groove double groove double;
+}
+.circle {
+	padding: 2px;
+	padding-top: 20px;
+	margin: 0px;
+	width: 100%;
+	border: 10px;
+	border-color:black;
+	border-style: groove double groove double;}
+.sphere {
+	padding: 2px;
+	padding-top: 20px;
+	margin: 0px;
+	width: 100%;
+	border: 10px;
+	border-color:black;
+	border-style: groove double groove double;
+}
+
+#fox {
+	color: black;
+	background-color: red;
+	border: 55px;
+	border-color: black;
+	border-style: groove double groove double;
+    margin: 15px;
+    padding: 2px;
+}
+.perf {
+	font-size: 300%;
+}
+.cheese {
+	border: 50px;
+	border-style: inset double inset double;
+	border-color: black;
+	background-color: red;
+	text-decoration-color: white;
+	display: flex;
+	text-align: left;
+	padding-top: 100px;
+	padding: 25px;
+	margin: 10px;
+	font-family: 'Kalam', cursive;
+	
+}
+.pizza1 {
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	border: 10px;
+	border-color:black;
+	border-style: groove dotted groove double;
+    margin-left: auto;
+	margin-right: auto;
+	margin: 5px;
+}
+.pizza2 {
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	border: 10px;
+	border-color:black;
+	border-style: groove dotted groove dotted;
+    margin-left: auto;
+	margin-right: auto;
+	margin: 5px;
+}
+.pizza3 {
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	border: 10px;
+	border-color:black;
+	border-style: groove dotted groove dotted;
+    margin-left: auto;
+	margin-right: auto;
+	margin: 5px;
+}
+.pizza4 {
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	border: 10px;
+	border-color:black;
+	border-style: groove double groove dotted;
+    margin-left: auto;
+	margin-right: auto;
+	margin: 5px;
+}
+.olive {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 75px;
+	text-align: center;
+}
+#lola {	
+    color: black;
+    border: 5px solid;
+    margin: 15px;
+    padding: 2px;
+}
+.hattori {
+	border: 75px;
+	border-style: double dashed double dashed;
+	border-color: red;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	background-color: black;
+	
+}
+
+.owl-demo {
+    display: flex;
+}
+
+.item {
+    border-style: solid;
+    margin-left: auto;
+	margin-right: auto;
+	margin: 5px;
+}
+
+#title {
+	border: solid;
+    background-color: rgb(87,73,101);
+    color: white;
+    padding: 20px 10px 20px 30px;
+    margin: 0;
+
+    font-size: 60px;
+    font-family: 'Fascinate Inline', cursive;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-align: center;
+}
+
+#smalltitle{
+    font-family: 'Long Cang', cursive;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+}
+.lock{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 35px;
+	text-align: center;
+}
+.color1{
+text-decoration-color: black; 
+
+}
+#fooditem th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+  }
+
+  #fooditem td, #fooditem th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	}
+table {
+	margin-bottom: 100px;
+}
+
+#footertitle {
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #4CAF50;
+}
